@@ -1,5 +1,2 @@
 image: 
   file: .gitpod.Dockerfile
-
-tasks:
-  - init: pip install jupyter-repo2docker
