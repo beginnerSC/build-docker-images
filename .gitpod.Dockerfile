@@ -7,4 +7,4 @@ RUN python3 -m ensurepip
 RUN pip3 install --no-cache --upgrade pip setuptools
 
 RUN pip3 install jupyter-repo2docker
-RUN jupyter-repo2docker https://github.com/beginnerSC/sandbox-stable
+RUN jupyter-repo2docker https://github.com/beginnerSC/sandbox-stable --user-name gitpod
