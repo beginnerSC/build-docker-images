@@ -1,4 +1,4 @@
-FROM docker:dind-rootless
+FROM docker:20.10
 
 # Install python/pip
 ENV PYTHONUNBUFFERED=1
